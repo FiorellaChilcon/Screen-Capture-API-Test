@@ -1,4 +1,4 @@
-import { turnOnVideo, turnOffVideo, shareScreen } from '/modules/media.js'
+import { turnOnVideo, turnOffVideo, shareScreen } from './controllers/media.js'
 
 // share screen
 const shareScreenBtn = document.getElementById('share-btn');
