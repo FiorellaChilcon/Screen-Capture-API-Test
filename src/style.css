@@ -8,7 +8,7 @@ body {
 
 video, canvas {
   background-color: rgb(34, 31, 31);
-  background-image: url('/public/assets/images/avatar.svg');
+  background-image: url('images/avatar.svg');
   background-size: auto 380px;
   background-repeat: no-repeat;
   background-position: center;
