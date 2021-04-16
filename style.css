@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #161617;
+  padding-top: 50px;
+}
+
+video, canvas {
+  background-color: rgb(34, 31, 31);
+  background-image: url('/assets/images/avatar.svg');
+  background-size: auto 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 640px;
+  height: 480px;
+}
+
+/* control buttons */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+  height: 80px;
+}
+
+.video-control {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(34, 31, 31);
+  margin: 0 10px;
+  outline: none;
+}
+
+.video-control:hover {
+  width: 52px;
+  height: 52px;
+}
+/* control buttons */
+
+/* icons */
+.fa-video-slash {
+  color: red;
+}
+
+.fa-video {
+  color: greenyellow;
+}
+
+.fa-desktop {
+  color: rgb(236, 236, 236);
+}
+
+.fa-camera {
+  color: rgb(252, 255, 53);
+}
+
+.fas {
+  font-size: 18px;
+}
+/* icons */
